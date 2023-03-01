@@ -1,0 +1,9 @@
+<div class="post">
+    <h5>{{ Post.data.ups }}</h5>
+    <h5>{{ Post.data.downs }}</h5>
+    <a class="link" href="https://www.reddit.com/{{ Post.data.permalink }}">
+        <h2>{{ Post.data.title }}</h2>
+        <img src="{{ Post.data.thumbnail }}"/>
+    </a>
+    <h5 style="margin:0">{{ Post.data.num_comments }} comments  </h5>
+</div>
